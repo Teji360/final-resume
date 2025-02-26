@@ -49,9 +49,9 @@ const Education = () => {
   return (
     <div
       ref={myRef} // Reference element to apply the effect
-      className="h-screen w-screen space-y-5 flex flex-col text-white dark:text-black p-40"
+      className="h-screen w-screen space-y-5 flex flex-col text-white dark:text-black p-5 sm:p-10 md:p-20"
     >
-      <div className="space-y-5 text-xl">
+      <div className="space-y-5 text-base sm:text-lg md:text-xl">
         <p>
           I attend <span className="text-[#B3A369]">Georgia Institute of Technology College of Computing. 🐝</span>
         </p>
@@ -62,39 +62,30 @@ const Education = () => {
       </div>
 
       <div>
-        <h1 className="text-2xl">Skills</h1>
+        <h1 className="text-lg sm:text-xl md:text-2xl">Skills</h1>
         <TechStack />
       </div>
 
       <div>
-        <h1 className="text-2xl">Clubs</h1>
-        <p>
-          Trading at Georgia Tech (TGT)
-        </p>
-
-        <p>
-          Artificial Intelligence At Georgia Tech (AI@GT)
-        </p>
-
-        <p>
-          Black Student Coding Organization (BSCO)
-        </p>
+        <h1 className="text-lg sm:text-xl md:text-2xl">Clubs</h1>
+        <p>Trading at Georgia Tech (TGT)</p>
+        <p>Artificial Intelligence At Georgia Tech (AI@GT)</p>
+        <p>Black Student Coding Organization (BSCO)</p>
       </div>
 
-
       <div className="space-y-1">
-        <h1 className="text-2xl">Links</h1>
+        <h1 className="text-lg sm:text-xl md:text-2xl">Links</h1>
         
         <p className="text-blue-500 underline">
           <Link href="https://www.linkedin.com/in/david-aror-40a55219a/">LinkedIn</Link>
         </p>
 
         <p className="text-blue-500 underline">
-           <Link href="https://leetcode.com/u/Asthetix/">Leetcode</Link>
+          <Link href="https://leetcode.com/u/Asthetix/">Leetcode</Link>
         </p>
 
         <p className="text-blue-500 underline">
-           <Link href="https://codeforces.com/profile/9ineout">Codeforces</Link>
+          <Link href="https://codeforces.com/profile/9ineout">Codeforces</Link>
         </p>
 
         <p className="text-blue-500 underline">
@@ -106,7 +97,6 @@ const Education = () => {
         </p>
       </div>
     </div>
-
   );
 };
 
