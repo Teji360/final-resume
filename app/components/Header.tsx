@@ -24,13 +24,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="w-full sm:w-[50vh] justify-between sm:justify-around sm:flex-row-reverse mt-4 sm:mt-0 space-y-4 sm:space-y-0 sm:space-x-10 hidden sm:block">
-                <div>
-                    <Link href="https://www.linkedin.com/in/david-aror-40a55219a/">
-                        LinkedIn
-                    </Link>
-                </div>
-
+            <div className="w-full sm:w-[50vh] flex justify-between sm:w-[50vh] sm:justify-around sm:flex-row-reverse sm:mt-0 sm:space-y-0 sm:space-x-10 sm:block">
                 <div>
                     <Link href="https://drive.google.com/file/d/10wSm_BsiUwcXtfEjeXfNfHl2SAUy4BfI/view?usp=sharing">
                         Resume
