@@ -54,6 +54,7 @@ const Education = () => {
       <div className="space-y-5 text-base sm:text-lg md:text-xl">
         <p>
           I attend <span className="text-[#B3A369]">Georgia Institute of Technology College of Computing. 🐝</span>
+          class of '27.
         </p>
 
         <p>

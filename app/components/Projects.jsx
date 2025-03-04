@@ -58,7 +58,7 @@ const Projects = () => {
   return (
     <div
       ref={myRef} // Reference element to apply the effect
-      className="h-screen w-screen flex flex-col items-center justify-center text-white overflow-hidden"
+      className="h-screen w-screen flex flex-col items-center justify-center text-white overflow-hidden p-20"
     >
       <h1 className="font-semibold text-3xl mb-6">Projects</h1>
       <div className="overflow-y-auto h-full w-full px-4 sm:px-8">
