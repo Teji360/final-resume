@@ -51,7 +51,7 @@ const Education = () => {
       ref={myRef} // Reference element to apply the effect
       className="h-screen w-screen space-y-5 flex flex-col text-white dark:text-black p-5 sm:p-10 md:p-20"
     >
-      <div className="space-y-5 text-base sm:text-lg md:text-xl">
+      <div className="space-y-5 text-base sm:text-lg md:text-xl pt-20">
         <p>
           I attend <span className="text-[#B3A369]">Georgia Institute of Technology College of Computing. 🐝</span>
           class of '27.

@@ -63,7 +63,7 @@ const Work = () => {
 
       <div className="flex flex-wrap justify-center gap-4 md:gap-5">
         {/* Google Card */}
-        <Card className="w-full sm:w-60 md:w-60 h-80 flex flex-col items-center">
+        <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
           <CardHeader>
             <CardTitle>Google</CardTitle>
             <CardDescription>Full Stack Development implementing GRPC's.</CardDescription>
@@ -74,7 +74,7 @@ const Work = () => {
         </Card>
 
         {/* Trading at Georgia Tech Card */}
-        <Card className="w-full sm:w-60 md:w-60 h-80 flex flex-col items-center">
+        <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
           <CardHeader>
             <CardTitle>Trading at Georgia Tech</CardTitle>
             <CardDescription>Weekly Market commentary and managing finance API's.</CardDescription>

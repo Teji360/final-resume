@@ -60,70 +60,88 @@ const Projects = () => {
       ref={myRef} // Reference element to apply the effect
       className="h-screen w-screen flex flex-col items-center justify-center text-white overflow-hidden p-20"
     >
-      <h1 className="font-semibold text-3xl mb-6">Projects</h1>
-      <div className="overflow-y-auto h-full w-full px-4 sm:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          <Card className="w-full sm:w-60 h-80 border border-black">
-            <CardHeader>
-              <CardTitle>vision-guard</CardTitle>
-              <CardDescription>TreeHacks Project that aims to increase safety on roads.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="https://github.com/JayYeung/tesla_kaggle">
-                <Button>Learn More</Button>
-              </Link>
-            </CardContent>
-            <CardFooter>
-              python, numpy, OpenAI
-            </CardFooter>
-          </Card>
+      <div className="pt-10 sm:pt-0">
+        <h1 className="font-semibold text-3xl mb-6">Projects</h1>
+        <div className="overflow-y-auto h-full w-full px-4 sm:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <Card className="w-full sm:w-60 h-80 border border-black">
+              <CardHeader>
+                <CardTitle>vision-guard</CardTitle>
+                <CardDescription>TreeHacks Project that aims to increase safety on roads.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Link href="https://github.com/JayYeung/tesla_kaggle">
+                  <Button>Learn More</Button>
+                </Link>
+              </CardContent>
+              <CardFooter>
+                python, numpy, OpenAI
+              </CardFooter>
+            </Card>
 
-          <Card className="w-full sm:w-60 h-80">
-            <CardHeader>
-              <CardTitle>face-detection</CardTitle>
-              <CardDescription>Face detection software that can track emotions.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="https://github.com/Teji360/face-recog">
-                <Button>Learn More</Button>
-              </Link>
-            </CardContent>
-            <CardFooter>
-              opencv, seaborn
-            </CardFooter>
-          </Card>
+            <Card className="w-full sm:w-60 h-80">
+              <CardHeader>
+                <CardTitle>face-detection</CardTitle>
+                <CardDescription>Face detection software that can track emotions.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Link href="https://github.com/Teji360/face-recog">
+                  <Button>Learn More</Button>
+                </Link>
+              </CardContent>
+              <CardFooter>
+                opencv, seaborn
+              </CardFooter>
+            </Card>
 
-          <Card className="w-full sm:w-60 h-80">
-            <CardHeader>
-              <CardTitle>finance-games</CardTitle>
-              <CardDescription>Game where users guess the performance of stocks.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="https://github.com/Teji360/finance-games">
-                <Button>Learn More</Button>
-              </Link>
-            </CardContent>
-            <CardFooter>
-              nextjs, vercel, finhubapi, yahoofinance
-            </CardFooter>
-          </Card>
+            <Card className="w-full sm:w-60 h-80">
+              <CardHeader>
+                <CardTitle>finance-games</CardTitle>
+                <CardDescription>Game where users guess the performance of stocks.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Link href="https://github.com/Teji360/finance-games">
+                  <Button>Learn More</Button>
+                </Link>
+              </CardContent>
+              <CardFooter>
+                nextjs, vercel, finhubapi, yahoofinance
+              </CardFooter>
+            </Card>
 
-          <Card className="w-full sm:w-60 h-80">
-            <CardHeader>
-              <CardTitle>3D-graphics-engine</CardTitle>
-              <CardDescription>Built a graphics engine with shaders</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Link href="https://github.com/Teji360/LeaningOpenGL">
-                <Button>Learn More</Button>
-              </Link>
-            </CardContent>
-            <CardFooter>
-              C++, CMake, OpenGL
-            </CardFooter>
-          </Card>
+            <Card className="w-full sm:w-60 h-80">
+              <CardHeader>
+                <CardTitle>3D-graphics-engine</CardTitle>
+                <CardDescription>Built a graphics engine with shaders</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Link href="https://github.com/Teji360/LeaningOpenGL">
+                  <Button>Learn More</Button>
+                </Link>
+              </CardContent>
+              <CardFooter>
+                C++, CMake, OpenGL
+              </CardFooter>
+            </Card>
+
+            <Card className="w-full sm:w-60 h-80">
+              <CardHeader>
+                <CardTitle>Profjector</CardTitle>
+                <CardDescription>Augmented reality to help professors teach</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Link href="https://github.com/rolandsaav/ImmerseGTProject">
+                  <Button>Learn More</Button>
+                </Link>
+              </CardContent>
+              <CardFooter>
+                Javascript, Snap Labs
+              </CardFooter>
+            </Card>
+          </div>
         </div>
       </div>
+
     </div>
   );
 };
