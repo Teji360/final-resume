@@ -58,11 +58,11 @@ const Projects = () => {
   return (
     <div
       ref={myRef} // Reference element to apply the effect
-      className="h-screen w-screen flex flex-col items-center justify-center text-white overflow-hidden p-20"
+      className="h-screen w-screen flex flex-col items-center justify-center text-white p-20"
     >
-      <div className="pt-10 sm:pt-0">
+      <div className="">
         <h1 className="font-semibold text-3xl mb-6">Projects</h1>
-        <div className="overflow-y-auto h-full w-full px-4 sm:px-8">
+        <div className="h-[60vh] overflow-y-scroll w-full px-4 sm:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             <Card className="w-full sm:w-60 h-80 border border-black">
               <CardHeader>

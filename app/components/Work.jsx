@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import Google from "../../public/google.png";
 import TGT from "../../public/TGT.jpg";
+import amazon from "../../public/amazon.jpg"
 
 const Work = () => {
   const [vantaEffect, setVantaEffect] = useState(null);
@@ -61,28 +62,42 @@ const Work = () => {
     >
       <h1 className="text-3xl font-semibold mb-6">Work Experience</h1>
 
-      <div className="flex flex-wrap justify-center gap-4 md:gap-5">
-        {/* Google Card */}
-        <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
-          <CardHeader>
-            <CardTitle>Google</CardTitle>
-            <CardDescription>Full Stack Development implementing GRPC's.</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Image src={Google} alt="Google Profile" height={100} width={100} className="h-10 w-10" />
-          </CardContent>
-        </Card>
+      <div className="h-[60vh] overflow-y-scroll w-full px-4 sm:px-8">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-5">
+          {/* Amazon Robotics */}
+          <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
+            <CardHeader>
+              <CardTitle>Amazon Robotics</CardTitle>
+              <CardDescription>Incoming Computer Vision Engineer</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image alt="Trading profile" src={amazon} height={100} width={100} className="h-10 w-10" />
+            </CardContent>
+          </Card>
+          {/* Google Card */}
+          <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
+            <CardHeader>
+              <CardTitle>Google</CardTitle>
+              <CardDescription>Full Stack Development implementing GRPC's.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image src={Google} alt="Google Profile" height={100} width={100} className="h-10 w-10" />
+            </CardContent>
+          </Card>
 
-        {/* Trading at Georgia Tech Card */}
-        <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
-          <CardHeader>
-            <CardTitle>Trading at Georgia Tech</CardTitle>
-            <CardDescription>Weekly Market commentary and managing finance API's.</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <Image alt="Trading profile" src={TGT} className="h-10 w-10" />
-          </CardContent>
-        </Card>
+          {/* Trading at Georgia Tech Card */}
+          <Card className="w-full sm:w-40 md:w-60 h-80 flex flex-col items-center">
+            <CardHeader>
+              <CardTitle>Trading at Georgia Tech</CardTitle>
+              <CardDescription>Weekly Market commentary and managing finance API's.</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Image alt="Trading profile" src={TGT} className="h-10 w-10" />
+            </CardContent>
+          </Card>
+
+
+        </div>
       </div>
     </div>
   );
